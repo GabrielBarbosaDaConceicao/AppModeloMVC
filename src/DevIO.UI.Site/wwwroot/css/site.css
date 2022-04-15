@@ -1,0 +1,59 @@
+﻿/* Please see documentation at https://docs.mirosoft.com/aspnet/core/client-side/bundling-andminification
+    for datais on configuring this project to bundle and minify static web assets. */
+a.nabar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/*sticky footer styles
+----------------------------------------------------*/
+html {
+    font-size: 14px;
+}
+
+@media (min-wisth: 768px){
+    html {
+        font-size: 16px;
+    }
+}
+
+.bordet-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/*Sticky footer styles
+---------------------------------------------------*/
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Verticaly center the text there */
+}

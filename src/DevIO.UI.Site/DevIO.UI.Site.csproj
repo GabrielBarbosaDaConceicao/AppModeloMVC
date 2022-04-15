@@ -6,10 +6,16 @@
 
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\lib\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
+    <PackageReference Include="BuildBundlerMinifier-Typescript" Version="2.1.258" />
+    <PackageReference Include="BuildBundlerMinifier3.2.564" Version="3.2.564" />
+    <PackageReference Include="BundlerMinifier.Core" Version="3.2.449" />
+    <PackageReference Include="BundlerMinifier.TagHelpers" Version="3.2.449" />
+    <PackageReference Include="BundlerMinifierPlus.TagHelpers" Version="5.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
